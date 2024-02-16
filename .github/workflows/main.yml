@@ -3,12 +3,12 @@ name: Windows / Linux KVM support high spec (8gb ram / 60gb ssd / 3core / VT-x s
 on: 
   workflow_dispatch:
     inputs:
-       ngrok:
-         description: '2Ty43FiGP5PFYK4eQ21D1Dnm0aY_ow9dpzrHMyr3r914fG8m
-         required: true
-       link_iso:
-         description: https://software.download.prss.microsoft.com/dbazure/Win8.1_EnglishInternational_x64.iso?t=9c43d60f-648e-4bf3-8073-a78b56d073a1&P1=1708056529&P2=601&P3=2&P4=Q0gjlzLFn5Qfo5HSRmVD%2bJw3pVA8HbI0vzsSAh9nhsJUPBQxIcCemJuQ1hoZ4DLZjhlYjUYpYpRjcCCXs2iCV%2bW%2bJgRbrY69fm71pPxZxaqXn6c5RfL1efKUFfmlPTZZAvSaXRcar1PJIbKP7BokEdNpNcZ4e%2bvo%2fjj8CBqcV%2fv51sXeS8Gi6bf58icVWZotgoJuMzQvdZB4GMvdCvBK0%2bhRQ4EDXro1wHFijKDnzUJFecMs1rHtrHiY8hgP4vkml9PLdjTXX9j3gBHFF3igyJRN7FxZRUSoD1fmbmDPfGm%2fHFm%2fCr38ezEODKSpMVaFIgbvZAA66w%2b7jqG2Hhkfzw%3d%3d
-         required: true
+     ngrok:
+      description: '2Ty43FiGP5PFYK4eQ21D1Dnm0aY_ow9dpzrHMyr3r914fG8m
+      required: true
+      link_iso:
+       description: https://software.download.prss.microsoft.com/dbazure/Win8.1_EnglishInternational_x64.iso?t=9c43d60f-648e-4bf3-8073-a78b56d073a1&P1=1708056529&P2=601&P3=2&P4=Q0gjlzLFn5Qfo5HSRmVD%2bJw3pVA8HbI0vzsSAh9nhsJUPBQxIcCemJuQ1hoZ4DLZjhlYjUYpYpRjcCCXs2iCV%2bW%2bJgRbrY69fm71pPxZxaqXn6c5RfL1efKUFfmlPTZZAvSaXRcar1PJIbKP7BokEdNpNcZ4e%2bvo%2fjj8CBqcV%2fv51sXeS8Gi6bf58icVWZotgoJuMzQvdZB4GMvdCvBK0%2bhRQ4EDXro1wHFijKDnzUJFecMs1rHtrHiY8hgP4vkml9PLdjTXX9j3gBHFF3igyJRN7FxZRUSoD1fmbmDPfGm%2fHFm%2fCr38ezEODKSpMVaFIgbvZAA66w%2b7jqG2Hhkfzw%3d%3d
+       required: true
  
 jobs:
   build:
